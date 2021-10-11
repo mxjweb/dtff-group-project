@@ -1,0 +1,68 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[
+    backend=biber,
+    style=bwl-FU,
+    url=false,
+    doi=false,
+    eprint=false]{biblatex}
+\addbibresource{bibliography.bib}
+
+%sections on new pages
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{threeparttable}
+\usepackage{blindtext}
+\usepackage{booktabs}
+
+\title{%
+  Digital Tools for Finance \\
+  \large What you should know!}
+\author{David Jaggi\thanks{University of Zurich, Switzerland}}
+\date{December 2021}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+    \blindtext
+\end{abstract}
+\newpage
+\blindtext[3]
+\textcite{gormsenCoronavirusImpactStock2020}
+\begin{figure}[h!]%
+    \centering
+    \includegraphics[width=6cm]{text/paper/github_logo.png}%
+    \caption{GitHub Logo}%
+    \footnotesize Numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term.
+    \label{fig:github_logo}%
+\end{figure}
+\blindtext[3]
+\textcite{kozlowskiTailThatWags2020}
+\begin{table}
+    \centering  
+  \begin{threeparttable}
+    \caption{Sample ANOVA table}
+     \begin{tabular}{lllll}
+        \toprule
+        Stubhead & \( df \) & \( f \) & \( \eta \) & \( p \) \\
+        \midrule
+                 &     \multicolumn{4}{c}{Spanning text}     \\
+        Row 1    & 1        & 0.67    & 0.55       & 0.41    \\
+        Row 2    & 2        & 0.02    & 0.01       & 0.39    \\
+        Row 3    & 3        & 0.15    & 0.33       & 0.34    \\
+        Row 4    & 4        & 1.00    & 0.76       & 0.54    \\
+        \bottomrule
+     \end{tabular}
+    \begin{tablenotes}
+      \small
+      \item Additional information on the data and methods used.
+    \end{tablenotes}
+  \end{threeparttable}
+\end{table}
+\blindtext[4]
+\printbibliography
+\end{document}
