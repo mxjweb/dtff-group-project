@@ -4,6 +4,9 @@
 \usefonttheme{professionalfonts}
 \usecolortheme{orchid}
 
+\usepackage{blindtext}
+\usepackage{amsmath}
+
 \title{Digital Tools for Finance}
 \subtitle{If a tree fell in your random forest, would anyone notice?}
 \author{David Jaggi}
@@ -15,15 +18,38 @@
 \frame{\titlepage}
 % ---------------------------------------------------------------------------
 \begin{frame}{Frame 1}
-    
+    \framesubtitle{Subtitle 1}
+    \begin{figure}
+    \centering
+        \begin{minipage}{.45\textwidth}
+          \centering
+          \includegraphics[width=.75\linewidth]{example-image-a}
+          \caption{Very nice image A.}
+          \label{fig:test-a}
+        \end{minipage}%
+        \begin{minipage}{.45\textwidth}
+          \centering
+          \includegraphics[width=.75\linewidth]{example-image-b}
+          \caption{Also nice image B.}
+          \label{fig:test-b}
+        \end{minipage}
+    \end{figure}
 \end{frame}
 % ---------------------------------------------------------------------------
 \begin{frame}{Frame 2}
-    
+    \framesubtitle{Subtitle 2}
+    \begin{theorem}{Example Theorem}
+        Let \(f\) be a function whose derivative exists in every point, then \(f\) 
+        is a continuous function.
+    \end{theorem}
 \end{frame}
 % ---------------------------------------------------------------------------
 \begin{frame}{Frame 3}
-    
+    \framesubtitle{Subtitle 3}
+        \begin{gather}
+            1+1=2 \\
+            2+2=4
+        \end{gather}
 \end{frame}
 % ---------------------------------------------------------------------------
 
