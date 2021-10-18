@@ -1,0 +1,49 @@
+\documentclass[10pt]{beamer}
+
+\usetheme{default}
+
+\title{Example Title}
+\author{Maximilian Weber}
+\institute{supported by UZH}
+\date{October 2021}
+
+\begin{document}
+% ---------------------------------------------------------------------------
+\frame{\titlepage}
+% ---------------------------------------------------------------------------
+\begin{frame}{Frame 1}
+    \framesubtitle{Subtitle 1}
+    \begin{figure}
+    \centering
+        \begin{minipage}{.45\textwidth}
+          \centering
+          \includegraphics[width=.75\linewidth]{example-image-a}
+          \caption{Very nice image A.}
+          \label{fig:test-a}
+        \end{minipage}%
+        \begin{minipage}{.45\textwidth}
+          \centering
+          \includegraphics[width=.75\linewidth]{example-image-b}
+          \caption{Also nice image B.}
+          \label{fig:test-b}
+        \end{minipage}
+    \end{figure}
+\end{frame}
+% ---------------------------------------------------------------------------
+\begin{frame}{Frame 2}
+    \framesubtitle{Subtitle 2}
+    \begin{theorem}
+        This is an example Theorem.
+    \end{theorem}
+\end{frame}
+% ---------------------------------------------------------------------------
+\begin{frame}{Frame 3}
+    \framesubtitle{Subtitle 3}
+        \begin{gather}
+            1*0=0 \\
+            2/2=1
+        \end{gather}
+\end{frame}
+% ---------------------------------------------------------------------------
+
+\end{document}
