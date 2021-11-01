@@ -2,3 +2,4 @@
 01-Version_control/Maximilian/data/
 01-Version_control/David/data/
 *.env
+.devcontainer
