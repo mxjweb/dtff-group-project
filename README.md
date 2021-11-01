@@ -9,4 +9,5 @@ Please create a `.env` file with the following content:
 
 ```env
 RESEARCH_DATA_PATH = "Path to your research"
+FRED_KEY
 ```
