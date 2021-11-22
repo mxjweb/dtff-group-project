@@ -1,5 +1,5 @@
 \documentclass[10pt]{beamer}
-
+\usepackage[utf8]{inputenc}
 \usetheme{Berlin}
 \usefonttheme{professionalfonts}
 \usecolortheme{orchid}
@@ -51,6 +51,12 @@
 % ---------------------------------------------------------------------------
 \frame{\titlepage}
 % ---------------------------------------------------------------------------
+\begin{frame}{Table of Contents}
+    \framesubtitle{Table of Contents}
+    \tableofcontents
+\end{frame}
+% ---------------------------------------------------------------------------
+\section{Figures}
 \begin{frame}{Frame 1}
     \framesubtitle{Subtitle 1}
     \begin{figure}
@@ -70,6 +76,7 @@
     \end{figure}
 \end{frame}
 % ---------------------------------------------------------------------------
+\section{Theorem}
 \begin{frame}{Frame 2}
     \framesubtitle{Subtitle 2}
     \begin{theorem}{Example Theorem}
@@ -78,6 +85,7 @@
     \end{theorem}
 \end{frame}
 % ---------------------------------------------------------------------------
+\section{Gather}
 \begin{frame}{Frame 3}
     \framesubtitle{Subtitle 3}
         \begin{gather}
@@ -86,6 +94,7 @@
         \end{gather}
 \end{frame}
 % ---------------------------------------------------------------------------
+\section{DColumn}
 \begin{frame}{Frame 4}
     \framesubtitle{Subtitle 4}
         % table using D from dcolumn package
@@ -99,13 +108,14 @@
 \multicolumn{1}{X}{\centering col C} \\
 \cmidrule(lr){2-2} \cmidrule(lr){3-3} \cmidrule(lr){4-4}
   \midrule  
-       North &      2'228   &   0.300 &  10.6 \\    
+       North &      2'228.0   &   0.3 &  10.6 \\    
        South &        689.2 &   0.8   &   2.6 \\
   \bottomrule
   \end{tabularx}     
 \end{table}
 \end{frame}
 % ---------------------------------------------------------------------------
+\section{Heatmap}
 \begin{frame}{Frame 5}
     \begin{table}
         \begin{center}
@@ -121,6 +131,7 @@
     \end{table}
 \end{frame}
 % ---------------------------------------------------------------------------
+\section{Plot}
 \begin{frame}{Frame 6}
     \begin{figure}
         \caption{Line plot using colorbrewer}

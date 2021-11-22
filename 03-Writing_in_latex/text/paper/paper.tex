@@ -1,5 +1,5 @@
 \documentclass[10pt,a4paper]{article}
-
+\usepackage[utf8]{inputenc}
 \usepackage[
     backend=biber,
     style=bwl-FU,
@@ -51,10 +51,13 @@
 
 \begin{document}
 \maketitle
+
 \begin{abstract}
     \blindtext
 \end{abstract}
-\newpage
+
+\tableofcontents
+\section{Introduction}
 \blindtext[3]
 \textcite{gormsenCoronavirusImpactStock2020}
 \begin{figure}[h!]%
@@ -64,6 +67,7 @@
     \footnotesize Numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term.
     \label{fig:github_logo}%
 \end{figure}
+\section{Methods}
 \blindtext[3]
 \textcite{kozlowskiTailThatWags2020}
 \begin{table}
@@ -87,6 +91,7 @@
     \end{tablenotes}
   \end{threeparttable}
 \end{table}
+\section{Results}
 \blindtext[1]
 % table using D from dcolumn package
 \begin{table}
@@ -94,14 +99,13 @@
   \centering
   \caption{Table with package dcolumn}
   \begin{tabularx}{\textwidth}{l*{3}{d{-2}}}
-
   \toprule
             &  \multicolumn{1}{X}{\centering col A} &
 \multicolumn{1}{X}{\centering col B} &
 \multicolumn{1}{X}{\centering col C} \\
 \cmidrule(lr){2-2} \cmidrule(lr){3-3} \cmidrule(lr){4-4}
   \midrule  
-       North &      2'228   &   0.300 &  10.6 \\    
+       North &      2'228.0   &   0.3 &  10.6 \\    
        South &        689.2 &   0.8   &   2.6 \\
   \bottomrule
 
@@ -119,7 +123,7 @@
     d,0,10,5,85
     }
 \end{table}
-
+\section{Discussion}
 \blindtext[1]
 \begin{figure}[ht]
     \caption{Line plot using colorbrewer}
