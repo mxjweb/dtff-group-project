@@ -35,7 +35,7 @@ featuring a paper (does not have to be of meaningful content) written in LaTeX, 
 
 featuring a beamer presentation (does not have to be of meaningful content though) written in LaTeX, with sections, a table of contents, tables and figures where figures adhere to the visualization standards discussed in the corresponding lectures;
 
-- Beamer presentation is under [Assignment/Text/Beamer](00-Assignment/text/beamer).
+- Beamer presentation is under [Assignment/Text/Presentation](00-Assignment/text/presentation).
 
 (optional) with one interactive app or jupyter Notebook presenting some findings (or some meaningless data, e.g. the histogram of Laplace distribution).
 
