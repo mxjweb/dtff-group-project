@@ -27,16 +27,16 @@ having a history of commits and merges;
 
 boasting a database with an API and possibility to update data;
 
-- API and data can be found under Data management and Web api.
+- API and data can be found under [Assignment/Api](00-Assignment/api/).
 
 featuring a paper (does not have to be of meaningful content) written in LaTeX, with sections, a table of contents, tables and figures where figures adhere to the visualization standards discussed in the corresponding lectures;
 
-- Paper is under Writing in Latex.
+- Paper is under [Assignment/Text/Paper](00-Assignment/text/paper).
 
 featuring a beamer presentation (does not have to be of meaningful content though) written in LaTeX, with sections, a table of contents, tables and figures where figures adhere to the visualization standards discussed in the corresponding lectures;
 
-- Beamer presentation is under Latex
+- Beamer presentation is under [Assignment/Text/Beamer](00-Assignment/text/beamer).
 
 (optional) with one interactive app or jupyter Notebook presenting some findings (or some meaningless data, e.g. the histogram of Laplace distribution).
 
-- Shiny app and Jupyter Notebook can be found under Knowledge transfer.
+- Shiny app and Jupyter Notebook can be found under [Assignment/Jupyter](00-Assignment/jupyter/) and [Assignment/Shiny](00-Assignment/shiny/).
