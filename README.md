@@ -39,4 +39,4 @@ featuring a beamer presentation (does not have to be of meaningful content thoug
 
 (optional) with one interactive app or jupyter Notebook presenting some findings (or some meaningless data, e.g. the histogram of Laplace distribution).
 
-- Shiny app and Jupyter Notebook can be found under [Assignment/Jupyter](00-Assignment/jupyter/) and [Assignment/Shiny](00-Assignment/shiny/).
+- Shiny app and Jupyter Notebook can be found under [Assignment/Jupyter](00-Assignment/jupyter/) and [Assignment/Shiny](00-Assignment/shiny/). Original code and article for the Shiny App can be be found [here](https://towardsdatascience.com/monitoring-stock-performance-made-easy-with-r-and-shiny-b6ab5fb02085).
