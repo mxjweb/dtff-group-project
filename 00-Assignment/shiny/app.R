@@ -1,3 +1,6 @@
+# Code originally created by Peer Christensen for towardsdatascience.com
+# Article can be found under: https://towardsdatascience.com/monitoring-stock-performance-made-easy-with-r-and-shiny-b6ab5fb02085
+
 library(shiny)
 library(shinyWidgets)
 library(shinythemes)
